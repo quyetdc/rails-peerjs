@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   root 'home#index'
-  
+
+  get '/chat_demo' => "home#chat_demo"
+
+  get '/hello_world' => "home#hello_world"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

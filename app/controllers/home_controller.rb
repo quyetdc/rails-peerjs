@@ -7,4 +7,7 @@ class HomeController < ApplicationController
 
 	def hello_world
 	end
+
+	def video_call
+	end
 end
